@@ -1,7 +1,10 @@
 import React from 'react'
-
+import './Home.css'
+import Features from '../../components/Features/Features'
 export default function Home() {
   return (
-    <div>Home</div>
+    <div className='containerHome'>
+      <Features/>
+    </div>
   )
 }

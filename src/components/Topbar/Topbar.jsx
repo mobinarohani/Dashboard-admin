@@ -10,7 +10,7 @@ export default function
             <div className="topbarElement">
 
                 <div className="topbarRight">
-                    <img src="logo192.png" alt="logo" className='Avatar' />
+                    <img src="avatar11.png" alt="logo" className='Avatar' />
                     <div className="TopbarRight_Icon">
                         <SettingsOutlinedIcon />
                     </div>
