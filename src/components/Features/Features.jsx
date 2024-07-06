@@ -7,7 +7,7 @@ export default function Features() {
     return (
         <div className='features'>
             <div className="featuresWrapper">
-                <span className="featureTitel">درآمد</span>
+                <h4 className="featureTitel">درآمد</h4>
                 <div className="featuresContent">
                     <div className="featureItem">
                         <span className='featureDiscription'>در مقایسه با ماه پیش</span>

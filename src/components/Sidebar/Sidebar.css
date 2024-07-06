@@ -1,8 +1,9 @@
 .sidebar{
     flex: 1;
-    height: calc(100vh - 60px);
+    height: calc(100vh - 50px);
     position: sticky;
     background-color: #81A263;
+    top: 50px;
 }
 
 .sidebarWrapper{
@@ -17,7 +18,7 @@
 
 .sidebarTitle{
     font-size: 15px;
-    color:#52673e;
+    color:#2d3b20;
     padding: 0 20px;
 }
 
