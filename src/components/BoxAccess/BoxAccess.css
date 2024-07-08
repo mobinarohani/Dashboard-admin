@@ -1,0 +1,31 @@
+.box{
+    text-align: right;
+    padding:1rem;
+    background-color: #FCDC94;
+    border-radius: .5rem;
+    cursor: pointer;
+    margin-bottom: .7rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end
+}
+
+.boxTitle{
+    font-weight: 600;
+    margin-right: 1rem;
+    position: relative;
+    display: block;
+}
+
+.boxTitle::after{
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 100%;
+    background-color: #ff6005;
+    right: -.5rem;
+}
+
+.boxAccessIcon{
+    font-size: 3rem !important;
+}

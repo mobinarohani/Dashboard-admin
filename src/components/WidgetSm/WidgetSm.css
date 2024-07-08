@@ -1,0 +1,59 @@
+.widgetContainer{
+    flex: 1;
+    margin-right: 20px;
+}
+
+.widgetSm{
+    padding: 20px;
+    box-shadow: 0 0 15px -10px rgba(0, 0, 0, .75);
+    text-align: right
+}
+
+.widgetSmTitle{
+    font-size: 22px;
+    font-weight:600;
+}
+
+.widgetSmListItem{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.widgetSmProfile{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.widgetSmInfo{
+    display: flex;
+    flex-direction: column;
+}
+
+.widgetSmUsername{
+    font-weight: 600;
+}
+
+.widgetSmJob{
+    font-weight: 300;
+}
+
+.widgetSmbtn{
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+    padding:7px 10px;
+    background-color: #fff1b7;
+    color: #FD9B63;
+    cursor: pointer;
+}
+
+.widgetsmIcon{
+    font-size: 19px !important;
+}
+
+

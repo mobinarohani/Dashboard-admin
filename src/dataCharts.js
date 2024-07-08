@@ -52,76 +52,64 @@ const xAxisdata = [
 const Users=[
     {
         id:1,
-        username:'Mobina Rohani',
-        job:'React Dev',
-        img:'logo192.png',
-    },
+        username:'یاسمین عزیزی',
+        job:'3D Dev',
+        img:'avatar1.png',
+    },      
     {
         id:2,
-        username:'Yasamin Azizi',
-        job:'3D Dev',
-        img:'logo192.png',
+        username:'مبینا بخش پور',
+        job:'Java Dev',
+        img:'avatar8.png',
     },    
     {
         id:3,
-        username:'Reyhane jafari',
-        job:'UI/UX',
-        img:'logo192.png',
-    },    
-    {
-        id:4,
-        username:'Mobina bakhshpor',
+        username:'آرش عظیمی',
         job:'Java Dev',
-        img:'logo192.png',
-    },    
-    {
-        id:5,
-        username:'Arash Azimi',
-        job:'Java Dev',
-        img:'logo192.png',
+        img:'avatar4.png',
     }
 ]
 
 const transActions=[
     {
         id:1,
-        customer:'Mobina Rohani',
+        customer:'صحرا یاری',
         data:'3 Jan 2023',
         amount:'$250',
         status:'Approved',
-        img:'logo192.png',
+        img:'avatar3.png',
     },
     {
         id:2,
-        customer:'Arash Norvand',
+        customer:'پارسا اسماعیلی',
         data:'15 1jun 2021',
         amount:'$35000',
         status:'Pending',
-        img:'logo192.png',
+        img:'avatar5.png',
     },    
     {
         id:3,
-        customer:'Mina Shimirani',
+        customer:'مینا شیرازی',
         data:'20 Oct 2020',
         amount:'$190',
         status:'Declined',
-        img:'logo192.png',
+        img:'avatar7.png',
     },    
     {
         id:4,
-        customer:'Bahram MirAmimi',
+        customer:'بهرام میرامینی',
         data:'9 Sep 2023',
         amount:'$450',
         status:'Approved',
-        img:'logo192.png',
+        img:'avatar9.png',
     },    
     {
         id:5,
-        customer:'Sina Alavi',
+        customer:'سینا علوی',
         data:'19 Dec 2020',
         amount:'$600',
         status:'Pending',
-        img:'logo192.png',
+        img:'avatar10.png',
     }
 ]
 
