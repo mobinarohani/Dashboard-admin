@@ -116,53 +116,53 @@ const transActions=[
 const userRow=[
     {
         id:1,
-        username:'Mobina Rohami',
-        img:'logo192.png',
+        username:'مبینا روحانی',
+        img:'avatar8.png',
         status:'active',
         transaction:'$190',
         email:'mobinarohani@gmail.com'
     },{
         id:2,
-        username:'Amir Katimi',
-        img:'logo192.png',
+        username:'امیر کریمی',
+        img:'avatar4.png',
         status:'non-active',
         transaction:'$3200',
         email:'amirkarimi@gmail.com'
     },{
         id:3,
-        username:'Zahra Moradi',
-        img:'logo192.png',
+        username:'زهرا مرادی',
+        img:'avatar11.png',
         status:'non-active',
         transaction:'$155',
         email:'zahramoradi@gmail.com'
     },{
         id:4,
-        username:'Yasamin Azizi',
-        img:'logo192.png',
+        username:'یاسمین عزیزی',
+        img:'avatar3.png',
         status:'active',
         transaction:'$250',
         email:'yasaminazizi@gmail.com'
     },{
         id:5,
-        username:'Reza Faezi',
-        img:'logo192.png',
+        username:'رضا فیروزی',
+        img:'avatar6.png',
         status:'active',
         transaction:'480',
-        email:'rezafaezi@gmail.com'
+        email:'rezafirozi@gmail.com'
     },{
         id:6,
-        username:'Rayhane Jafari',
-        img:'logo192.png',
+        username:'ریحانه جعفری',
+        img:'avatar2.png',
         status:'non-active',
         transaction:'$100',
         email:'rayhanejafari@gmail.com'
     },{
         id:7,
-        username:'Sina Alavi',
-        img:'logo192.png',
+        username:'سامان بیانی',
+        img:'avatar5.png',
         status:'non-active',
         transaction:'$305',
-        email:'sinaalavi@gmail.com'
+        email:'samanbayani@gmail.com'
     },
 ]
 

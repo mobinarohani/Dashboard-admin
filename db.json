@@ -1,0 +1,214 @@
+{
+  "xAxisdata": [
+    {
+      "name": "فروردین",
+      "Sale": 155000,
+      "id": "8632"
+    },
+    {
+      "name": "اردیبهشت",
+      "Sale": 220000,
+      "id": "8a06"
+    },
+    {
+      "name": "خرداد",
+      "Sale": 100000,
+      "id": "0c6e"
+    },
+    {
+      "name": "تیر",
+      "Sale": 150000,
+      "id": "41ce"
+    },
+    {
+      "name": "مرداد",
+      "Sale": 305500,
+      "id": "dc7b"
+    },
+    {
+      "name": "شهریور",
+      "Sale": 100300,
+      "id": "4fb4"
+    },
+    {
+      "name": "مهر",
+      "Sale": 230450,
+      "id": "0fe3"
+    },
+    {
+      "name": "آبان",
+      "Sale": 300000,
+      "id": "3581"
+    },
+    {
+      "name": "آذر",
+      "Sale": 158090,
+      "id": "7c84"
+    },
+    {
+      "name": "دی",
+      "Sale": 305898,
+      "id": "78a6"
+    },
+    {
+      "name": "بهمن",
+      "Sale": 214603,
+      "id": "a36d"
+    },
+    {
+      "name": "اسفند",
+      "Sale": 120700,
+      "id": "bb2e"
+    }
+  ],
+  "NewUsers": [
+    {
+      "id": "1",
+      "username": "یاسمین عزیزی",
+      "job": "3D Dev",
+      "img": "avatar1.png"
+    },
+    {
+      "id": "2",
+      "username": "مبینا بخش پور",
+      "job": "Java Dev",
+      "img": "avatar8.png"
+    },
+    {
+      "id": "3",
+      "username": "آرش عظیمی",
+      "job": "Java Dev",
+      "img": "avatar4.png"
+    }
+  ],
+  "transActions": [
+    {
+      "id": "1",
+      "customer": "صحرا یاری",
+      "data": "3 Jan 2023",
+      "amount": "$250",
+      "status": "Approved",
+      "img": "avatar3.png"
+    },
+    {
+      "id": "2",
+      "customer": "پارسا اسماعیلی",
+      "data": "15 1jun 2021",
+      "amount": "$35000",
+      "status": "Pending",
+      "img": "avatar5.png"
+    },
+    {
+      "id": "3",
+      "customer": "مینا شیرازی",
+      "data": "20 Oct 2020",
+      "amount": "$190",
+      "status": "Declined",
+      "img": "avatar7.png"
+    },
+    {
+      "id": "4",
+      "customer": "بهرام میرامینی",
+      "data": "9 Sep 2023",
+      "amount": "$450",
+      "status": "Approved",
+      "img": "avatar9.png"
+    },
+    {
+      "id": "5",
+      "customer": "سینا علوی",
+      "data": "19 Dec 2020",
+      "amount": "$600",
+      "status": "Pending",
+      "img": "avatar10.png"
+    }
+  ],
+  "userRow": [
+    {
+      "id": "1",
+      "username": "مبینا روحانی",
+      "email": "mobinarohani@gmail.com",
+      "status": "active",
+      "transaction": "$190",
+      "img": "avatar8.png"
+    },
+    {
+      "id": "2",
+      "username": "امیر کریمی",
+      "img": "avatar4.png",
+      "status": "non-active",
+      "transaction": "$200",
+      "email": "amirkarimi@gmail.com"
+    },
+    {
+      "id": "3",
+      "username": "زهرا مرادی",
+      "email": "zahramoradi@gmail.com",
+      "status": "non-active",
+      "transaction": "$180",
+      "img": "avatar11.png"
+    },
+    {
+      "id": "4",
+      "username": "یاسمین عزیزی",
+      "email": "yasaminazizi@gmail.com",
+      "status": "active",
+      "transaction": "$255",
+      "img": "avatar3.png"
+    },
+    {
+      "id": "5",
+      "username": "رضا فیروزی",
+      "email": "rezafirozi@gmail.com",
+      "status": "non-active",
+      "transaction": "$480",
+      "img": "avatar6.png"
+    },
+    {
+      "id": "6",
+      "username": "ریحانه جعفری",
+      "img": "avatar2.png",
+      "status": "non-active",
+      "transaction": "$100",
+      "email": "rayhanejafari@gmail.com"
+    },
+    {
+      "id": "7",
+      "username": "سامان بیانی",
+      "img": "avatar5.png",
+      "status": "non-active",
+      "transaction": "$305",
+      "email": "samanbayani@gmail.com"
+    }
+  ],
+  "product": [
+    {
+      "id": "1",
+      "title": "asus",
+      "price": "$550",
+      "status": "active",
+      "img": "asus.jpeg"
+    },
+    {
+      "id": "2",
+      "title": "Dell",
+      "price": "$357",
+      "status": "non-active",
+      "img": "dell.jpg"
+    },
+    {
+      "id": "3",
+      "title": "Lenovo",
+      "price": "$230",
+      "status": "non-active",
+      "img": "acer.jpg"
+    },
+    {
+      "id": "4",
+      "title": "Hp",
+      "price": "$350",
+      "status": "non-active",
+      "img": "hp.jpg"
+    }
+  ]
+}

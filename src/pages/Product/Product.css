@@ -1,0 +1,132 @@
+.product{
+    flex: 4;
+    padding: 20px;
+}
+
+.productTitleContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.productAddbtn{
+    width: 80px;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: .5rem;
+    font-size: 16px;
+    color: white;
+    background-color: #365E32;
+}
+
+.productTop{
+    display: flex;
+    align-items: center;
+}
+
+.productTop-right,
+.productTop-left{
+    flex: 1;
+}
+
+
+.productTop-right{
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 0 15px -10px rgba(0, 0, 0, .75);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.productTopInfo{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.productInfoImg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%; 
+    margin-left: 70px;
+}
+
+.productInfoTopTitle{
+    font-weight: 600;
+    color: #365E32;
+}
+
+.productbottomInfo{
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.productInfoItem{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 150px;
+}
+
+.productInfoKey{
+    font-weight: 600;
+}
+
+.productInfoValue{
+    color: #8e8e8e;
+}
+
+.productBottom{
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 0 15px -10px rgba(0, 0, 0, .75);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.productBottom__title{
+    font-size: 1.7rem;
+    color: #81A263;
+}
+
+.productBottom__img{
+    width: 120px;
+    height: 120px;
+    border-radius: 20%;
+    margin-left: 40px;
+}
+
+.productBottomItem{
+    display: flex;
+}
+
+.productinput-style{
+    border: none;
+    border-bottom: 1px solid #c8cfa0;
+    color: #8e8e8e;
+    margin: 0 3rem;
+}
+
+.productinput-style:focus-visible{
+    outline: none;
+}
+
+.productBottomItembtn{
+    margin-top: 1.5rem;
+}
+
+.productBottom__btn{
+    width: 80px;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: .5rem;
+    font-size: 16px;
+    color: white;
+    background-color: #365E32;
+}
+
+

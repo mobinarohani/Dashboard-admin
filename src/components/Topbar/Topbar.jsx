@@ -10,7 +10,7 @@ export default function
             <div className="topbarElement">
 
                 <div className="topbarRight">
-                    <img src="avatar11.png" alt="logo" className='Avatar' />
+                    <img src="/avatar11.png" alt="logo" className='Avatar' />
                     <div className="TopbarRight_Icon">
                         <SettingsOutlinedIcon />
                     </div>
@@ -24,7 +24,7 @@ export default function
                     </div>
                 </div>
                 <div className="topbarLeft">
-                    <img src="logo.png" alt="logo" className='logosit' />
+                    <img src="/logo.png" alt="logo" className='logosit' />
                 </div>
             </div>
         </div>

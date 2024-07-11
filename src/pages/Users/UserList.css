@@ -99,4 +99,11 @@
     outline: none;
 }
 
+.input-message{
+    font-size: .9rem;
+    text-align: center;
+    margin-top: 2.5rem;
+    color: #FD9B63;
+}
+
 
