@@ -41,6 +41,8 @@ export default function Home() {
       fetchusertransActions()
     },[])
 
+    console.log(chartdata);
+
   return (
     <div className='containerHome'>
       <Features/>

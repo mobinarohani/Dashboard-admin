@@ -1,0 +1,38 @@
+.AnalyticsTop{
+    display: flex;
+    margin: 20px;
+}
+
+.widgetproductTitle{
+    font-size: 22px;
+    font-weight: 600;
+    color: #365E32;
+}
+
+.widgetproductList{
+    padding: 0;
+    margin-top: 1.5rem;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.widgetproductListItem{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+    width: 250px;
+}
+
+.widgetproductUsername{
+    margin-right: 20px;
+}
+
+.widgetproductProfile{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    object-fit: cover;
+}

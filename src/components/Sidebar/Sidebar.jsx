@@ -24,7 +24,7 @@ export default function Sidebar() {
                         <LineStyleIcon className='sidebarIcon'/>
                     </li>
                     </NavLink>
-                    <NavLink to="" className="link">
+                    <NavLink to="/analytics" className="link">
                     <li className="sidebarListItem">
                         ارزیابی فروش    
                         <TimelineIcon className='sidebarIcon'/>

@@ -159,10 +159,10 @@
     {
       "id": "5",
       "username": "رضا فیروزی",
-      "email": "rezafirozi@gmail.com",
-      "status": "non-active",
-      "transaction": "$480",
-      "img": "avatar6.png"
+      "img": "avatar6.png",
+      "status": "active",
+      "transaction": "480",
+      "email": "rezafirozi@gmail.com"
     },
     {
       "id": "6",
@@ -179,13 +179,21 @@
       "status": "non-active",
       "transaction": "$305",
       "email": "samanbayani@gmail.com"
+    },
+    {
+      "id": "8",
+      "username": "نیما احمدی",
+      "email": "nimaAhmadi@gmail.com",
+      "status": "active",
+      "transaction": "$780",
+      "img": "http://localhost:3001/avatar4.png"
     }
   ],
   "product": [
     {
       "id": "1",
       "title": "asus",
-      "price": "$550",
+      "price": "$570",
       "status": "active",
       "img": "asus.jpeg"
     },
@@ -209,6 +217,146 @@
       "price": "$350",
       "status": "non-active",
       "img": "hp.jpg"
+    },
+    {
+      "id": "5",
+      "title": "Apple",
+      "price": "$750",
+      "status": "active",
+      "img": "apple.webp"
+    },
+    {
+      "id": "6",
+      "title": "Gigabyte",
+      "price": "$450",
+      "status": "non-active",
+      "img": "gigabyte.webp"
+    },
+    {
+      "id": "7",
+      "title": "Huawei",
+      "price": "$620",
+      "status": "active",
+      "img": "Huawei.webp"
+    },
+    {
+      "id": "8",
+      "title": "Intel",
+      "price": "$450",
+      "status": "non-active",
+      "img": "Intel.webp"
+    },
+    {
+      "id": "9",
+      "title": "Microsoft",
+      "price": "$610",
+      "status": "active",
+      "img": "microsoft.webp"
+    },
+    {
+      "id": "10",
+      "title": "MSI",
+      "price": "$395",
+      "status": "non-active",
+      "img": "MSI.webp"
+    },
+    {
+      "id": "11",
+      "title": "xiaomi",
+      "price": "$777",
+      "status": "active",
+      "img": "xiaomi.webp"
+    }
+  ],
+  "productData": [
+    {
+      "name": "فروردین",
+      "Sale": "220",
+      "id": "077f"
+    },
+    {
+      "name": "اردیبهشت",
+      "Sale": "300",
+      "id": "9ba9"
+    },
+    {
+      "name": "خرداد",
+      "Sale": "409",
+      "id": "2cb7"
+    },
+    {
+      "name": "تیر",
+      "Sale": "189",
+      "id": "1109"
+    },
+    {
+      "name": "مرداد",
+      "Sale": "530",
+      "id": "e032"
+    }
+  ],
+  "Seller": [
+    {
+      "id": "1",
+      "username": "علی عظیمی",
+      "email": "aliAzimi@gmail.com",
+      "status": "active",
+      "transaction": "$75000000",
+      "img": "avatar10.png"
+    },
+    {
+      "id": "2",
+      "username": "دانیال احسانس پور",
+      "img": "avatar4.png",
+      "status": "non-active",
+      "transaction": "$20000000",
+      "email": "danialEhsanipur@gmail.com"
+    },
+    {
+      "id": "3",
+      "username": "شهرزاد پنهاهی",
+      "email": "shahrzadPanahi@gmail.com",
+      "status": "non-active",
+      "transaction": "$18000000",
+      "img": "avatar11.png"
+    },
+    {
+      "id": "4",
+      "username": "فرناز فرجی",
+      "email": "farnazFaragy@gmail.com",
+      "status": "active",
+      "transaction": "$25500000",
+      "img": "avatar3.png"
+    }
+  ],
+  "Analyticsproduct": [
+    {
+      "id": "1",
+      "name": "asus",
+      "price": 570,
+      "status": "active",
+      "img": "asus.jpeg"
+    },
+    {
+      "id": "4",
+      "name": "Hp",
+      "price": 350,
+      "status": "non-active",
+      "img": "hp.jpg"
+    },
+    {
+      "id": "7",
+      "name": "Huawei",
+      "price": 620,
+      "status": "active",
+      "img": "Huawei.webp"
+    },
+    {
+      "id": "10",
+      "name": "MSI",
+      "price": 395,
+      "status": "non-active",
+      "img": "MSI.webp"
     }
   ]
 }

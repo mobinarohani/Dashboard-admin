@@ -48,7 +48,7 @@ export default function UserList() {
         method: "DELETE",
       }).then((respons) => {
         if (respons.status == 200) {
-          handleClose();
+          handleClose()
           setgetData((prev) => !prev);
         }
       });
@@ -170,11 +170,11 @@ export default function UserList() {
         initialState={{
           pagination: {
             paginationModel: {
-              pageSize: 5,
+              pageSize: 8,
             },
           },
         }}
-        pageSizeOptions={[5]}
+        pageSizeOptions={[8]}
         disableRowSelectionOnClick
       ></DataGrid>
       <Modal

@@ -21,8 +21,6 @@ export default function WidgetSm(info) {
     }
         
    })
-
-   console.log(newUserSM);
     
     return (
         <div className='widgetContainer'>

@@ -1,6 +1,6 @@
 import React ,{useState , useEffect} from 'react'
 import './Product.css'
-import { Link ,json,useParams} from 'react-router-dom'
+import { Link ,useParams} from 'react-router-dom'
 import Chart from '../../components/Chart/Chart'
 import { productData } from '../../dataCharts'
 export default function Product() {
@@ -8,6 +8,7 @@ export default function Product() {
     let productID=useParams()
 
     const[getproductData,setgetproductData]=useState({})
+    const[getDataChart,setgetDataChart]=useState({})
 
 
     const [titleinfo, setTitleinfo] = useState("");
@@ -26,6 +27,15 @@ export default function Product() {
         fetchgetproductData()
 
     },[getDataStatus])
+
+    useEffect(()=>{
+        async function fetchgetDataChart(){
+            await fetch('http://localhost:3000/productData')
+            .then(respons=>respons.json())
+            .then(data=>setgetDataChart(data))
+        }
+        fetchgetDataChart()
+    },[])
 
 
     useEffect(()=>{
@@ -75,7 +85,7 @@ export default function Product() {
         </div>
         <div className="productTop">
             <div className="productTop-left">
-                <Chart title="فروش ماهانه" data={productData} dataKey="Sale"/>
+                <Chart title="فروش ماهانه" data={getDataChart} dataKey="Sale"/>
             </div>
             <div className="productTop-right">
                 <div className="productTopInfo">

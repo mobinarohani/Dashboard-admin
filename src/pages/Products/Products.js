@@ -6,7 +6,6 @@ import { Link } from "react-router-dom";
 import { DataGrid } from "@mui/x-data-grid";
 import DeleteOutlineIcon from "@mui/icons-material/DeleteOutline";
 
-import {product} from '../../dataCharts'
 
 export default function Products() {
   const [productData, setproductData] = useState([]);
@@ -98,11 +97,11 @@ export default function Products() {
       initialState={{
         pagination: {
           paginationModel: {
-            pageSize: 5,
+            pageSize: 8,
           },
         },
       }}
-      pageSizeOptions={[5]}
+      pageSizeOptions={[8]}
       disableRowSelectionOnClick
     ></DataGrid>
     <Modal
