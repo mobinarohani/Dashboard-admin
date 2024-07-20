@@ -171,22 +171,6 @@
       "status": "non-active",
       "transaction": "$100",
       "email": "rayhanejafari@gmail.com"
-    },
-    {
-      "id": "7",
-      "username": "سامان بیانی",
-      "img": "avatar5.png",
-      "status": "non-active",
-      "transaction": "$305",
-      "email": "samanbayani@gmail.com"
-    },
-    {
-      "id": "8",
-      "username": "نیما احمدی",
-      "email": "nimaAhmadi@gmail.com",
-      "status": "active",
-      "transaction": "$780",
-      "img": "http://localhost:3001/avatar4.png"
     }
   ],
   "product": [
@@ -194,7 +178,7 @@
       "id": "1",
       "title": "asus",
       "price": "$570",
-      "status": "active",
+      "status": "non-active",
       "img": "asus.jpeg"
     },
     {
@@ -235,14 +219,14 @@
     {
       "id": "7",
       "title": "Huawei",
-      "price": "$620",
+      "price": "$627",
       "status": "active",
       "img": "Huawei.webp"
     },
     {
       "id": "8",
       "title": "Intel",
-      "price": "$450",
+      "price": "$455",
       "status": "non-active",
       "img": "Intel.webp"
     },
@@ -357,6 +341,81 @@
       "price": 395,
       "status": "non-active",
       "img": "MSI.webp"
+    }
+  ],
+  "IncomReport":[
+    {
+      "name":"asus",
+      "price":130000,
+      "percent":43,
+      "variant":"success",
+      "img": "asus.jpeg"
+    },
+    {
+      "name":"Hp",
+      "price":240000,
+      "percent":59,
+      "variant":"info",
+      "img": "hp.jpg"
+    },
+    {
+      "name":"Huawei",
+      "price":310000,
+      "percent":65,
+      "variant":"warning",
+      "img": "Huawei.webp"
+    }
+  ],
+  "mostSell":[
+    {
+      "id": "1",
+      "name": "asus",
+      "price": "$570000",
+      "number":450,
+      "status": "active",
+      "img": "asus.jpeg"
+    },
+    {
+      "id": "2",
+      "name": "Hp",
+      "price": "$350000",
+      "number":230,
+      "status": "non-active",
+      "img": "hp.jpg"
+    },
+    {
+      "id": "3",
+      "name": "MSI",
+      "price": "$395000",
+      "number":112,
+      "status": "non-active",
+      "img": "MSI.webp"
+    }
+  ],
+  "lowSell":[
+    {
+      "id": "1",
+      "name": "Dell",
+      "price": "$357000",
+      "number":75,
+      "status": "non-active",
+      "img": "dell.jpg"
+    },
+    {
+      "id": "2",
+      "name": "Gigabyte",
+      "price": "$450000",
+      "number":41,
+      "status": "non-active",
+      "img": "gigabyte.webp"
+    },
+    {
+      "id": "3",
+      "name": "xiaomi",
+      "price": "$777000",
+      "number":37,
+      "status": "active",
+      "img": "xiaomi.webp"
     }
   ]
 }

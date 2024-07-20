@@ -41,16 +41,16 @@ export default function Home() {
       fetchusertransActions()
     },[])
 
-    console.log(chartdata);
+    // console.log(chartdata);
 
   return (
     <div className='containerHome'>
       <Features/>
-      <Chart grid  title="فروش ماهانه"  data={chartdata} dataKey="Sale"/>
+      <Chart grid  title="فروش ماهانه"  data='xAxisdata' dataKey="Sale"/>
       <Seller/>
       <div className='homeWidget'>
-        <WidgetSm info={newUsers}/>
-        <WidgetBg info={usertransActions}/>
+        <WidgetSm info='NewUsers'/>
+        <WidgetBg info='transActions'/>
       </div>
     </div>
   )

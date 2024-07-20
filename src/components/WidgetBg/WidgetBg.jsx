@@ -1,18 +1,12 @@
-import React ,{useState,useEffect}from 'react'
+import React from 'react'
 import './WidgetBg.css'
-export default function WidgetBg(info) {
+import useFetch from '../../Hooks/useFetch'
+export default function WidgetBg({info}) {
     const Button = ({ type }) => {
         return <button className={"widgetBgButtton " + type}>{type}</button>
     }
 
-    const[usertransActions,setusertransActions]=useState([])
-
-    useEffect(()=>{
-        if(info.info){
-            setusertransActions(info.info)
-        }
-    })
-
+    const{getData , isPending}=useFetch(info)
 
     return (
         <div className='widgetBg'>
@@ -24,16 +18,17 @@ export default function WidgetBg(info) {
                     <th className='widgetBgItemTh'>تاریخ</th>
                     <th className='widgetBgItemTh'>مشتری</th>
                 </tr>
-                {usertransActions.map(item => (
+                {isPending && <div>Loding ...</div>}
+                {getData.map(item => (
                     <tr className='widgetBgTr'>
                         <td className='widgetBgItem'>
-                            <Button type={item[1].status}/>
+                            <Button type={item.status}/>
                         </td>
-                        <td className='widgetBgItem'>{item[1].amount}</td>
-                        <td className='widgetBgItem'>{item[1].data}</td>
+                        <td className='widgetBgItem'>{item.amount}</td>
+                        <td className='widgetBgItem'>{item.data}</td>
                         <td className='widgetBgItem'>
-                            <span className='widgetBgCustomer'>{item[1].customer}</span>
-                            <img src={item[1].img} alt="" className='widgetBgProfile' />
+                            <span className='widgetBgCustomer'>{item.customer}</span>
+                            <img src={item.img} alt="" className='widgetBgProfile' />
                         </td>
                     </tr>
                 ))}

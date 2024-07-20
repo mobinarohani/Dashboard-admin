@@ -49,19 +49,18 @@ export default function NewUser() {
         .then(respons=>{
           if(respons.status==201){
             setstatusInputSend(true)
-            console.log("if",statusInputSend);
           }
         })
       }
 
       fetchPostUser()
-    }else{
-      statusInputSend(prev=>!prev)
-    }
 
-    setTimeout(() => {
-      setstatusInputSend(false)
-    }, 3000)
+      setTimeout(() => {
+        setstatusInputSend(false)
+      }, 3000)
+    }else{
+      setstatusInput(true)
+    }
   }
 
   return (
@@ -82,8 +81,8 @@ export default function NewUser() {
           </div>
         </div>
         <div className="newUser_inputs">
-          {statusInput&&<h5 className='newinput-message'>لطفا اطلاعات را کامل وارد کنید</h5>}
-          {statusInputSend&&<h5 className='newinput-message'>کاربر ثبت شد</h5>}
+          {statusInput &&<h5 className='newinput-message'>لطفا اطلاعات را کامل وارد کنید</h5>}
+          {statusInputSend &&<h5 className='newinput-message'>کاربر ثبت شد</h5>}
           <div className="newUser_inputStyle">
             <input type="text" placeholder='نام کاربری' value={userName} className="input__Style" onChange={(event)=>setuserName(event.target.value)}/>
             <input type="text" placeholder='ایمیل' value={email} className="input__Style" onChange={(event)=>setemail(event.target.value)}/>

@@ -5,26 +5,19 @@ import "./Products.css";
 import { Link } from "react-router-dom";
 import { DataGrid } from "@mui/x-data-grid";
 import DeleteOutlineIcon from "@mui/icons-material/DeleteOutline";
-
+import useFetch from "../../Hooks/useFetch";
 
 export default function Products() {
-  const [productData, setproductData] = useState([]);
-  const [getData, setgetData] = useState(false);
+
+  const{getData , isPending}=useFetch('product')
+
+
+  const [getDataStatus, setgetDataStatus] = useState(false);
   const [idproductr, setididproductr] = useState("");
 
   const [show, setShow] = useState(false);
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
-
-
-  useEffect(()=>{
-    async function fetchProductData(){
-      await fetch('http://localhost:3000/product')
-      .then(respons=>respons.json())
-      .then(data=>setproductData(data))
-    }
-    fetchProductData()
-  })
 
 
   const deleteproductHandler = () => {
@@ -34,7 +27,7 @@ export default function Products() {
       }).then((respons) => {
         if (respons.status == 200) {
           handleClose();
-          setgetData((prev) => !prev);
+          setgetDataStatus((prev) => !prev);
         }
       });
     }
@@ -92,7 +85,7 @@ export default function Products() {
   return (
     <div className="userList">
     <DataGrid
-      rows={productData}
+      rows={getData}
       columns={columns}
       initialState={{
         pagination: {

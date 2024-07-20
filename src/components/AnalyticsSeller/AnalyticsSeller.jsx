@@ -1,14 +1,10 @@
-import React ,{useState,useEffect}from 'react'
+import React from 'react'
 import '../WidgetBg/WidgetBg.css'
-export default function AnalyticsSeller(info) {
+import useFetch from '../../Hooks/useFetch'
+export default function AnalyticsSeller({info}) {
 
-    const[userSeller,setuserSeller]=useState([])
+    const{getData , isPending}=useFetch(info)
 
-    useEffect(()=>{
-        if(info.info){
-            setuserSeller(info.info)
-        }
-    })
 
     return (
         <div className='widgetBg'>
@@ -20,16 +16,17 @@ export default function AnalyticsSeller(info) {
                     <th className='widgetBgItemTh'>ایمیل</th>
                     <th className='widgetBgItemTh'>نام</th>
                 </tr>
-                {userSeller.map(item => (
+                {isPending && <div>Loding ...</div>}
+                {getData.map(item => (
                     <tr className='widgetBgTr'>
                         <td className='widgetBgItem'>
-                          {item[1].status}
+                          {item.status}
                         </td>
-                        <td className='widgetBgItem'>{item[1].transaction}</td>
-                        <td className='widgetBgItem'>{item[1].email}</td>
+                        <td className='widgetBgItem'>{item.transaction}</td>
+                        <td className='widgetBgItem'>{item.email}</td>
                         <td className='widgetBgItem'>
-                            <span className='widgetBgCustomer'>{item[1].username}</span>
-                            <img src={item[1].img} alt="" className='widgetBgProfile' />
+                            <span className='widgetBgCustomer'>{item.username}</span>
+                            <img src={item.img} alt="" className='widgetBgProfile' />
                         </td>
                     </tr>
                 ))}

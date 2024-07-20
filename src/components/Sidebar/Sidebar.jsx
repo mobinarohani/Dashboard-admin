@@ -53,7 +53,7 @@ export default function Sidebar() {
                         <StorefrontIcon className='sidebarIcon'/>
                     </li>
                     </NavLink>
-                    <NavLink to="" className="link">
+                    <NavLink to="/report" className="link">
                     <li className="sidebarListItem">
                         گزارشات  
                         <BarChartIcon className='sidebarIcon'/>
